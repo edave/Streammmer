@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE6CB121148EC9C100BAAE24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6CB120148EC9C100BAAE24 /* Cocoa.framework */; };
+		AE6CB12B148EC9C100BAAE24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE6CB129148EC9C100BAAE24 /* InfoPlist.strings */; };
+		AE6CB12D148EC9C100BAAE24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6CB12C148EC9C100BAAE24 /* main.m */; };
+		AE6CB131148EC9C100BAAE24 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE6CB12F148EC9C100BAAE24 /* Credits.rtf */; };
+		AE6CB134148EC9C100BAAE24 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6CB133148EC9C100BAAE24 /* SMAppDelegate.m */; };
+		AE6CB137148EC9C100BAAE24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6CB135148EC9C100BAAE24 /* MainMenu.xib */; };
+		AE6CB192148ECFA100BAAE24 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6CB191148ECFA100BAAE24 /* CoreServices.framework */; };
+		AE6CB194148ECFC300BAAE24 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6CB193148ECFC300BAAE24 /* SystemConfiguration.framework */; };
+		AE6CB1A1148ED13600BAAE24 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6CB18B148ECECD00BAAE24 /* RestKit.framework */; };
+		AE6CB1A7148ED2EB00BAAE24 /* Shot.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6CB1A6148ED2EB00BAAE24 /* Shot.m */; };
+		AE6CB1AA148EE03200BAAE24 /* ShotsGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6CB1A9148EE03200BAAE24 /* ShotsGalleryView.m */; };
+		AE6CB1AD148EE20800BAAE24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6CB1AC148EE20800BAAE24 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE6CB186148ECECD00BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		AE6CB188148ECECD00BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		AE6CB18A148ECECD00BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		AE6CB18C148ECECE00BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		AE6CB18E148ECF4200BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160E61145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		AE6CB1A2148ED1CA00BAAE24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE6CB11C148EC9C100BAAE24 /* Streammmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streammmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6CB120148EC9C100BAAE24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE6CB123148EC9C100BAAE24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AE6CB124148EC9C100BAAE24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE6CB125148EC9C100BAAE24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE6CB128148EC9C100BAAE24 /* Streammmer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Streammmer-Info.plist"; sourceTree = "<group>"; };
+		AE6CB12A148EC9C100BAAE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE6CB12C148EC9C100BAAE24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE6CB12E148EC9C100BAAE24 /* Streammmer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Streammmer-Prefix.pch"; sourceTree = "<group>"; };
+		AE6CB130148EC9C100BAAE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AE6CB132148EC9C100BAAE24 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		AE6CB133148EC9C100BAAE24 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		AE6CB136148EC9C100BAAE24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		AE6CB191148ECFA100BAAE24 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		AE6CB193148ECFC300BAAE24 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE6CB1A5148ED2EB00BAAE24 /* Shot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shot.h; sourceTree = "<group>"; };
+		AE6CB1A6148ED2EB00BAAE24 /* Shot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shot.m; sourceTree = "<group>"; };
+		AE6CB1A8148EE03200BAAE24 /* ShotsGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotsGalleryView.h; sourceTree = "<group>"; };
+		AE6CB1A9148EE03200BAAE24 /* ShotsGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotsGalleryView.m; sourceTree = "<group>"; };
+		AE6CB1AC148EE20800BAAE24 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6CB119148EC9C100BAAE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6CB1AD148EE20800BAAE24 /* QuartzCore.framework in Frameworks */,
+				AE6CB1A1148ED13600BAAE24 /* RestKit.framework in Frameworks */,
+				AE6CB194148ECFC300BAAE24 /* SystemConfiguration.framework in Frameworks */,
+				AE6CB192148ECFA100BAAE24 /* CoreServices.framework in Frameworks */,
+				AE6CB121148EC9C100BAAE24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6CB111148EC9C100BAAE24 = {
+			isa = PBXGroup;
+			children = (
+				AE6CB1AC148EE20800BAAE24 /* QuartzCore.framework */,
+				AE6CB126148EC9C100BAAE24 /* Streammmer */,
+				AE6CB11F148EC9C100BAAE24 /* Frameworks */,
+				AE6CB11D148EC9C100BAAE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6CB11D148EC9C100BAAE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB11C148EC9C100BAAE24 /* Streammmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6CB11F148EC9C100BAAE24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB120148EC9C100BAAE24 /* Cocoa.framework */,
+				AE6CB122148EC9C100BAAE24 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE6CB122148EC9C100BAAE24 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */,
+				AE6CB193148ECFC300BAAE24 /* SystemConfiguration.framework */,
+				AE6CB191148ECFA100BAAE24 /* CoreServices.framework */,
+				AE6CB123148EC9C100BAAE24 /* AppKit.framework */,
+				AE6CB124148EC9C100BAAE24 /* CoreData.framework */,
+				AE6CB125148EC9C100BAAE24 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AE6CB126148EC9C100BAAE24 /* Streammmer */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB1AB148EE03800BAAE24 /* Interface */,
+				AE6CB1A4148ED2A900BAAE24 /* RestKit */,
+				AE6CB132148EC9C100BAAE24 /* SMAppDelegate.h */,
+				AE6CB133148EC9C100BAAE24 /* SMAppDelegate.m */,
+				AE6CB135148EC9C100BAAE24 /* MainMenu.xib */,
+				AE6CB127148EC9C100BAAE24 /* Supporting Files */,
+			);
+			path = Streammmer;
+			sourceTree = "<group>";
+		};
+		AE6CB127148EC9C100BAAE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB128148EC9C100BAAE24 /* Streammmer-Info.plist */,
+				AE6CB129148EC9C100BAAE24 /* InfoPlist.strings */,
+				AE6CB12C148EC9C100BAAE24 /* main.m */,
+				AE6CB12E148EC9C100BAAE24 /* Streammmer-Prefix.pch */,
+				AE6CB12F148EC9C100BAAE24 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE6CB17D148ECECD00BAAE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB187148ECECD00BAAE24 /* libRestKit.a */,
+				AE6CB189148ECECD00BAAE24 /* RestKitTests.octest */,
+				AE6CB18B148ECECD00BAAE24 /* RestKit.framework */,
+				AE6CB18D148ECECE00BAAE24 /* RestKitFrameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6CB1A4148ED2A900BAAE24 /* RestKit */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB1A5148ED2EB00BAAE24 /* Shot.h */,
+				AE6CB1A6148ED2EB00BAAE24 /* Shot.m */,
+			);
+			name = RestKit;
+			sourceTree = "<group>";
+		};
+		AE6CB1AB148EE03800BAAE24 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AE6CB1A8148EE03200BAAE24 /* ShotsGalleryView.h */,
+				AE6CB1A9148EE03200BAAE24 /* ShotsGalleryView.m */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6CB11B148EC9C100BAAE24 /* Streammmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6CB13A148EC9C100BAAE24 /* Build configuration list for PBXNativeTarget "Streammmer" */;
+			buildPhases = (
+				AE6CB118148EC9C100BAAE24 /* Sources */,
+				AE6CB119148EC9C100BAAE24 /* Frameworks */,
+				AE6CB11A148EC9C100BAAE24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE6CB1A3148ED1CA00BAAE24 /* PBXTargetDependency */,
+				AE6CB18F148ECF4200BAAE24 /* PBXTargetDependency */,
+			);
+			name = Streammmer;
+			productName = Streammmer;
+			productReference = AE6CB11C148EC9C100BAAE24 /* Streammmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6CB113148EC9C100BAAE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AE6CB116148EC9C100BAAE24 /* Build configuration list for PBXProject "Streammmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE6CB111148EC9C100BAAE24;
+			productRefGroup = AE6CB11D148EC9C100BAAE24 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE6CB17D148ECECD00BAAE24 /* Products */;
+					ProjectRef = AE6CB17C148ECECD00BAAE24 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE6CB11B148EC9C100BAAE24 /* Streammmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE6CB187148ECECD00BAAE24 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = AE6CB186148ECECD00BAAE24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE6CB189148ECECD00BAAE24 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = AE6CB188148ECECD00BAAE24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE6CB18B148ECECD00BAAE24 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = AE6CB18A148ECECD00BAAE24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AE6CB18D148ECECE00BAAE24 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = AE6CB18C148ECECE00BAAE24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6CB11A148EC9C100BAAE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6CB12B148EC9C100BAAE24 /* InfoPlist.strings in Resources */,
+				AE6CB131148EC9C100BAAE24 /* Credits.rtf in Resources */,
+				AE6CB137148EC9C100BAAE24 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6CB118148EC9C100BAAE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6CB12D148EC9C100BAAE24 /* main.m in Sources */,
+				AE6CB134148EC9C100BAAE24 /* SMAppDelegate.m in Sources */,
+				AE6CB1A7148ED2EB00BAAE24 /* Shot.m in Sources */,
+				AE6CB1AA148EE03200BAAE24 /* ShotsGalleryView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE6CB18F148ECF4200BAAE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKitFramework;
+			targetProxy = AE6CB18E148ECF4200BAAE24 /* PBXContainerItemProxy */;
+		};
+		AE6CB1A3148ED1CA00BAAE24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = AE6CB1A2148ED1CA00BAAE24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6CB129148EC9C100BAAE24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6CB12A148EC9C100BAAE24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE6CB12F148EC9C100BAAE24 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6CB130148EC9C100BAAE24 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AE6CB135148EC9C100BAAE24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6CB136148EC9C100BAAE24 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6CB138148EC9C100BAAE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/../RestKit/Build\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE6CB139148EC9C100BAAE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/../RestKit/Build\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE6CB13B148EC9C100BAAE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Streammmer/Streammmer-Prefix.pch";
+				INFOPLIST_FILE = "Streammmer/Streammmer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE6CB13C148EC9C100BAAE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Streammmer/Streammmer-Prefix.pch";
+				INFOPLIST_FILE = "Streammmer/Streammmer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6CB116148EC9C100BAAE24 /* Build configuration list for PBXProject "Streammmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6CB138148EC9C100BAAE24 /* Debug */,
+				AE6CB139148EC9C100BAAE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6CB13A148EC9C100BAAE24 /* Build configuration list for PBXNativeTarget "Streammmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6CB13B148EC9C100BAAE24 /* Debug */,
+				AE6CB13C148EC9C100BAAE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6CB113148EC9C100BAAE24 /* Project object */;
+}
